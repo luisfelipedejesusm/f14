@@ -95,12 +95,23 @@ body {
   top: -100px;
   width: 100%;
 }
+
+@media only screen and (min-device-width: 768px){
+  .open .endtext {
+    top: 0;
+    opacity: 1;
+    animation: show 5s;
+    width: 900px !important;
+    margin-left: -270px;
+  }
+}
+
 .open .endtext {
   top: 0;
   opacity: 1;
   animation: show 5s;
-  width: 900px !important;
-    margin-left: -270px;
+  /* width: 900px !important; */
+  /* margin-left: -270px; */
 }
 .endtext .close {
   position: absolute;
