@@ -13,7 +13,10 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
+
 .container {
   position: relative;
   margin: 120px auto 0 auto;
@@ -27,7 +30,7 @@ body {
 }
 .open .ico {
   animation: open 4s;
-  transform: scale(10);
+  transform: scale(5.5);
 }
 .ico .title {
   position: absolute;
@@ -96,6 +99,8 @@ body {
   top: 0;
   opacity: 1;
   animation: show 5s;
+  width: 900px !important;
+    margin-left: -270px;
 }
 .endtext .close {
   position: absolute;
@@ -147,7 +152,7 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(10);
+    transform: scale(5.5);
   }
 }
 
